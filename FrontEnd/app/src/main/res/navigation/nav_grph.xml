@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grph"
+    app:startDestination="@id/lenderFragment">
+
+    <fragment
+        android:id="@+id/lenderFragment"
+        android:name="com.hackygirls.kavachh.fragments.LenderFragment"
+        android:label="fragment_lender"
+        tools:layout="@layout/fragment_lender" >
+        <action
+            android:id="@+id/action_lenderFragment_to_borrowerAccountFragment"
+            app:destination="@id/borrowerAccountFragment" />
+        <action
+            android:id="@+id/action_lenderFragment_to_lendersWalletFragment"
+            app:destination="@id/lendersWalletFragment" />
+        <action
+            android:id="@+id/action_lenderFragment_to_lenderHistoryFragment"
+            app:destination="@id/lenderHistoryFragment" />
+        <action
+            android:id="@+id/action_lenderFragment_to_pendingReqFragment"
+            app:destination="@id/pendingReqFragment" />
+        <action
+            android:id="@+id/action_lenderFragment_to_allBorrowersFragment"
+            app:destination="@id/allBorrowersFragment" />
+        <action
+            android:id="@+id/action_lenderFragment_to_suspectListFragment"
+            app:destination="@id/suspectListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/borrowerAccountFragment"
+        android:name="com.hackygirls.kavachh.fragments.BorrowerAccountFragment"
+        android:label="fragment_borrower_account"
+        tools:layout="@layout/fragment_borrower_account" />
+    <fragment
+        android:id="@+id/lendersWalletFragment"
+        android:name="com.hackygirls.kavachh.fragments.LendersWalletFragment"
+        android:label="fragment_lenders_wallet"
+        tools:layout="@layout/fragment_lenders_wallet" />
+    <fragment
+        android:id="@+id/lenderHistoryFragment"
+        android:name="com.hackygirls.kavachh.fragments.LenderHistoryFragment"
+        android:label="LenderHistoryFragment" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.hackygirls.kavachh.fragments.MapFragment"
+        android:label="MapFragment" />
+    <fragment
+        android:id="@+id/pendingReqFragment"
+        android:name="com.hackygirls.kavachh.fragments.PendingReqFragment"
+        android:label="fragment_pending_req"
+        tools:layout="@layout/fragment_pending_req" >
+        <action
+            android:id="@+id/action_pendingReqFragment_to_enterRangeFragment"
+            app:destination="@id/enterRangeFragment" />
+        <action
+            android:id="@+id/action_pendingReqFragment_to_lenderFragment"
+            app:destination="@id/lenderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterRangeFragment"
+        android:name="com.hackygirls.kavachh.fragments.EnterRangeFragment"
+        android:label="EnterRangeFragment" >
+        <action
+            android:id="@+id/action_enterRangeFragment_to_decencyScoreFragment"
+            app:destination="@id/decencyScoreFragment" />
+        <action
+            android:id="@+id/action_enterRangeFragment_to_pendingReqFragment"
+            app:destination="@id/pendingReqFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/decencyScoreFragment"
+        android:name="com.hackygirls.kavachh.fragments.DecencyScoreFragment"
+        android:label="fragment_decency_score"
+        tools:layout="@layout/fragment_decency_score" >
+        <action
+            android:id="@+id/action_decencyScoreFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_decencyScoreFragment_to_enterRangeFragment"
+            app:destination="@id/enterRangeFragment" />
+        <action
+            android:id="@+id/action_decencyScoreFragment_to_lenderFragment"
+            app:destination="@id/lenderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allBorrowersFragment"
+        android:name="com.hackygirls.kavachh.fragments.AllBorrowersFragment"
+        android:label="fragment_all_borrowers"
+        tools:layout="@layout/fragment_all_borrowers" >
+        <action
+            android:id="@+id/action_allBorrowersFragment_to_lenderFragment"
+            app:destination="@id/lenderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/suspectListFragment"
+        android:name="com.hackygirls.kavachh.fragments.SuspectListFragment"
+        android:label="fragment_suspect_list"
+        tools:layout="@layout/fragment_suspect_list" >
+        <action
+            android:id="@+id/action_suspectListFragment_to_lenderFragment"
+            app:destination="@id/lenderFragment" />
+    </fragment>
+</navigation>

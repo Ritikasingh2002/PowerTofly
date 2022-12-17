@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#28282B">
+        <ProgressBar
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/progressBar44"
+            android:visibility="invisible"
+            android:indeterminate="true"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/bck"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/wlcm"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/ic_undraw_map_dark_re_36sy" />
+
+        <TextView
+            android:id="@+id/sgnup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wlcm"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:text="Enter Range of Surveillance"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <ScrollView
+            android:layout_below="@id/sgnup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/sgnup">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    app:cardCornerRadius="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="40dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/icon3"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:src="@drawable/username" />
+
+                        <EditText
+                            android:id="@+id/passwordInput"
+                            android:layout_width="300dp"
+                            android:layout_height="60dp"
+                            android:layout_toRightOf="@id/icon3"
+                            android:hint="Range in meters"
+                            android:inputType="textMultiLine" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/buttonbg"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="Check Decency"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</layout>

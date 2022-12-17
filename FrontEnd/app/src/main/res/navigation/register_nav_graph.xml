@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/register_nav_graph"
+    app:startDestination="@id/borrowerRegisterFragment">
+
+    <fragment
+        android:id="@+id/borrowerRegisterFragment"
+        android:name="com.hackygirls.kavachh.fragments.BorrowerRegisterFragment"
+        android:label="BorrowerRegisterFragment" >
+        <action
+            android:id="@+id/action_borrowerRegisterFragment_to_borroweRegister2Fragment"
+            app:destination="@id/borroweRegister2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/borroweRegister2Fragment"
+        android:name="com.hackygirls.kavachh.fragments.BorroweRegister2Fragment"
+        android:label="BorroweRegister2Fragment" />
+</navigation>

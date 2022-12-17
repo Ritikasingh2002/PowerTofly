@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/acceptbg.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/back.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/backgrnd.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/backgroundbg.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/bgbck.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/bgbgbg.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/buttonbg.xml" value="0.2265" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/circular_progress_bar.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/circular_shape.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/declinebg.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/ic_pending.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/ic_undraw_make_it_rain_iwk4.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/ic_undraw_online_transactions__02_ka.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/ic_undraw_savings_re_eq4w.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/ic_undraw_team_work_k_80_m.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/ic_undraw_transfer_money_rywa.xml" value="0.189" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/drawable/walletbg.xml" value="0.2265" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout-v23/activity_volley_login.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_borrower.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_borrower_login.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_borrower_registration.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_borrower_registration2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_choice.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_lender.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_lender_registration.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_map.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_razorpay.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_signup.xml" value="0.2583826429980276" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_signup2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/activity_volley_login.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/borrowers.xml" value="0.536" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/checkdec.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_all_borrowers.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrowe_register2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrower.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrower_account.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrower_account_lender.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrower_history.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrower_prsnl_accnt.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrower_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_borrower_wallet.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_decency_score.xml" value="0.264" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_enter_range.xml" value="0.264" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_first.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_lender.xml" value="0.264" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_lender_history.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_lender_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_lenders_wallet.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_map.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_pending_req.xml" value="0.264" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_register_borwr.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_register_borwr2.xml" value="0.2359375" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_second.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_signup1.xml" value="0.264" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_signup2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_suspect_list.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/fragment_view_pager.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/suspect.xml" value="0.25" />
+        <entry key="..\:/Users/anany/AndroidStudioProjects/Kavachh/app/src/main/res/layout/transactions.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

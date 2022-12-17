@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/its_nav_graph"
+    app:startDestination="@id/registerBorwrFragment">
+
+    <fragment
+        android:id="@+id/registerBorwrFragment"
+        android:name="com.hackygirls.kavachh.RegisterBorwrFragment"
+        android:label="RegisterBorwrFragment" >
+        <action
+            android:id="@+id/action_registerBorwrFragment_to_registerBorwr2Fragment"
+            app:destination="@id/registerBorwr2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerBorwr2Fragment"
+        android:name="com.hackygirls.kavachh.RegisterBorwr2Fragment"
+        android:label="RegisterBorwr2Fragment" />
+</navigation>
